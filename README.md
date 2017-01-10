@@ -56,7 +56,7 @@ will output this HTML table (indentation added for clarity):
 ```
 
 ## Installation
-There is currently no installation script. Run the *.pks and *.pkb file in SQL*Plus, SQL Developer, or your IDE of choice. I suggest installing it into its own schema and granting execute privileges to any schema that needs to use it.
+There is currently no installation script. Run the \*.pks and \*.pkb files in SQL*Plus, SQL Developer, or your IDE of choice. I suggest installing it into its own schema and granting execute privileges to any schema that needs to use it.
 
 ## Security 
 This package uses `DBMS_SQL` to execute the SQL command and runs with `AUTHID CURRENT_USER` permissions. No checking of the SQL command is done, so you should make sure to protect it from SQL injection attacks.
