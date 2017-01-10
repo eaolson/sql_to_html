@@ -13,7 +13,7 @@ FUNCTION sql_to_html.create_table(
 	p_header_attributes IN VARCHAR2 DEFAULT NULL,
 	p_cell_attributes IN VARCHAR2 DEFAULT NULL,
 	p_separator IN VARCHAR2 DEFAULT '|',
-	p_escape_chars IN BOOLEAN DEFAULT TRUE )
+	p_escape_chars IN BOOLEAN DEFAULT TRUE ) RETURN CLOB
 ```
 
 ### Parameters
